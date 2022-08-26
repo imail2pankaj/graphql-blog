@@ -16,7 +16,7 @@ const PostDetails = ({ post }) => {
   const openGraph = {
     title: post.title,
     description: post.description,
-    images: [{url: post.featuredImage.url}]
+    images: [{ url: post.featuredImage.url }]
   }
   return (
     <>

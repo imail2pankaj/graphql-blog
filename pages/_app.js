@@ -1,8 +1,7 @@
 import React from 'react';
-
+import { DefaultSeo } from 'next-seo';
 import '../styles/globals.scss';
 import { Layout } from '../components';
-import { DefaultSeo } from 'next-seo';
 
 function MyApp({ Component, pageProps }) {
   return (
